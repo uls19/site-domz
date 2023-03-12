@@ -1,0 +1,10 @@
+.header__menu-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    padding: 28px 0px;
+    display: block;
+}

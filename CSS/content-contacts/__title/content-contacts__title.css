@@ -1,0 +1,11 @@
+.content-contacts__title {
+    padding-top: 33px;
+    padding-bottom: 25px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000; 
+    grid-row: 1;
+    grid-column: 2;
+}

@@ -1,0 +1,10 @@
+.header {
+    padding-left: calc(50% - 1300px / 2);
+    padding-right: calc(50% - 1300px / 2);
+    background: #213B7E; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}

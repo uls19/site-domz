@@ -1,0 +1,44 @@
+@import url(./CSS/all/all.css);
+@import url(./CSS/body/body.css);
+
+@import url(./CSS/content/content.css);
+@import url(./CSS/content/__heading/content__heading.css);
+@import url(./CSS/content/__image/content__image.css);
+@import url(./CSS/content/__info/content__info.css);
+@import url(./CSS/content/__quotation-marks/content__quotation-marks.css);
+@import url(./CSS/content/__section/content__section.css);
+@import url(./CSS/content/__subtitle/content__subtitle.css);
+@import url(./CSS/content/__text/content__text.css);
+@import url(./CSS/content/__text/__text_bold/content__text_bold.css);
+@import url(./CSS/content/__text/__text_color/content__text_color.css);
+@import url(./CSS/content/__title/content__title.css);
+
+@import url(./CSS/content-about/content-about.css);
+@import url(./CSS/content-about/__subtitle/content-about__subtitle.css);
+@import url(./CSS/content-about/__title/content-about__title.css);
+@import url(./CSS/content-about/__video/content-about__video.css);
+
+@import url(./CSS/content-contacts/content-contacts.css);
+@import url(./CSS/content-contacts/__address/content-contacts__address.css);
+@import url(./CSS/content-contacts/__iframe/content-contacts__iframe.css);
+@import url(./CSS/content-contacts/__tel/content-contacts__tel.css);
+@import url(./CSS/content-contacts/__text/content-contacts__text.css);
+@import url(./CSS/content-contacts/__title/content-contacts__title.css);
+
+@import url(./CSS/content-students/content-students.css);
+@import url(./CSS/content-students/__name/content-students__name.css);
+@import url(./CSS/content-students/__new/content-students__new.css);
+@import url(./CSS/content-students/__student/content-students__student.css);
+@import url(./CSS/content-students/__students/content-students__students.css);
+@import url(./CSS/content-students/__title/content-students__title.css);
+
+@import url(./CSS/footer/footer.css);
+@import url(./CSS/footer/__link/footer__link.css);
+
+@import url(./CSS/header/header.css);
+@import url(./CSS/header/__button/header__button.css);
+@import url(./CSS/header/__logo/header__logo.css);
+@import url(./CSS/header/__menu/header__menu.css);
+@import url(./CSS/header/__menu-link/header__menu-link.css);
+@import url(./CSS/header/__menu-link/__menu-link_active/header__menu-link_active.css);
+@import url(./CSS/header/__menu-list/header__menu-list.css);

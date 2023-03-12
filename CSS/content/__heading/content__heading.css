@@ -1,0 +1,11 @@
+.content__heading {
+    font-family: 'Lobster', cursive;
+    width: 183px;
+    min-width: 163px;
+    margin-top: 44px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    color: #646464;    
+}
