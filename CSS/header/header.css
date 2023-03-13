@@ -8,3 +8,11 @@
     
 
 }
+@media screen and (max-width: 600px) {
+    .header {
+        min-width: 320px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+    }  
+}

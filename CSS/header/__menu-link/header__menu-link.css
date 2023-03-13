@@ -8,3 +8,17 @@
     padding: 28px 0px;
     display: block;
 }
+@media screen and (max-width: 767px) {
+    .header__menu-link {
+        font-size: 18px;
+        line-height: 20px;
+        padding: 22px 0px;
+   }  
+}
+@media screen and (max-width: 600px) {
+    .header__menu-link {
+        font-size: 16px;
+        line-height: 18px;
+        padding: 18px 0px;
+}
+}

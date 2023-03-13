@@ -9,3 +9,8 @@
     line-height: 45px;
     color: #646464;    
 }
+@media screen and (max-width: 767px) {
+    .content__heading {
+        margin: 44px auto;
+} 
+}
