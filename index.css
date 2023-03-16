@@ -32,6 +32,15 @@
 @import url(./CSS/content-students/__students/content-students__students.css);
 @import url(./CSS/content-students/__title/content-students__title.css);
 
+
+@import url(./CSS/entrance/entrance.css);
+@import url(./CSS/entrance/__button/entrance__button.css);
+@import url(./CSS/entrance/__form/entrance__form.css);
+@import url(./CSS/entrance/__password/entrance__password.css);
+@import url(./CSS/entrance/__text/entrance__text.css);
+@import url(./CSS/entrance/__title/entrance__title.css);
+@import url(./CSS/entrance/__visible/visible.css);
+
 @import url(./CSS/footer/footer.css);
 @import url(./CSS/footer/__link/footer__link.css);
 

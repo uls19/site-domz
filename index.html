@@ -19,9 +19,10 @@
             <a class="header__logo" href="index.html">
                 <img class="header__image" src="img/logo.svg" alt="logotype">
             </a>
-            <nav class="header__nav" >
+            <nav class="header__nav">
                 <ul class="header__menu">
-                    <li class="header__menu-list"><a class="header__menu-link header__menu-link_active" href="index.html">Главная</a></li>
+                    <li class="header__menu-list"><a class="header__menu-link header__menu-link_active"
+                            href="index.html">Главная</a></li>
                     <li class="header__menu-list"><a class="header__menu-link" href="students.html">Студенты</a></li>
                     <li class="header__menu-list"><a class="header__menu-link" href="about.html">О курсе</a></li>
                     <li class="header__menu-list"><a class="header__menu-link" href="contacts.html">Контакты</a></li>
@@ -30,6 +31,14 @@
             <a class="header__button" href="#">Войти</a>
         </header>
         <main class="content">
+            <div class="entrance">
+                <h3 class="entrance__title">Войти на сайт</h3>
+                <form action="#" class="entrance__form">
+                    <input type="text" name="username" id="username" class="entrance__text" placeholder="Логин" required>
+                    <input type="password" name="password" id="password" class="entrance__password" placeholder="Пароль" required>
+                    <button type="submit" class="entrance__button">Войти</button>
+                </form>
+            </div>
             <h1 class="content__title">Добро пожаловать на курс “Создание веб-сайтов (HTML, CSS)”!</h1>
             <img class="content__image" src="img/contentphoto.jpg" alt="главное фото">
             <div class="content__info">
@@ -46,10 +55,11 @@
                         <h3 class="content__subtitle">Чему вы научитесь</h3>
                         <p class="content__text">На этом курсе вы узнаете, как устроены веб-сайты и как создавать их с
                             нуля.
-                            Изучите основы языков<span class="content__text content__text_bold"> HTML, CSS </span>и немного<span
-                                class="content__text content__text_bold">
+                            Изучите основы языков<span class="content__text content__text_bold"> HTML, CSS </span>и
+                            немного<span class="content__text content__text_bold">
                                 JavaScript.</span> Мы вместе сверстаем сайт нашей группы по этому макету. А затем
-                            вы<span class="content__text content__text_color"> сами</span> сверстаете свои личные странички в качестве
+                            вы<span class="content__text content__text_color"> сами</span> сверстаете свои личные
+                            странички в качестве
                             домашнего
                             задания и
                             мы выложим все это на сервер.</p>
@@ -67,6 +77,22 @@
     <footer class="footer">
         <p>2023 &#169; <a class="footer__link" href="#">учебный центр</a></p>
     </footer>
+    <script>
+        const buttonEl = document.querySelector('.header__button');
+        const blockEntrance = document.querySelector('.entrance');
+
+        const secondButton = document.querySelector('entrance__button');
+
+        buttonEl.addEventListener('click', function (e) {
+            blockEntrance.classList.toggle("visible");
+        });
+
+        secondButton.addEventListener('click', function (e) {
+            blockEntrance.classList.toggle("visible");
+        });
+
+     
+    </script>
 </body>
 
 </html>

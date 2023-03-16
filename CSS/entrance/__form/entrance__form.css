@@ -1,0 +1,25 @@
+.entrance__form {
+    width: 500px;
+}
+
+@media screen and (max-width: 767px) {
+    .entrance__form {
+        width: 442px;   
+       }
+}
+
+@media screen and (max-width: 600px) {
+    .entrance__form {
+        width: 375px;
+    } 
+ }
+ @media screen and (max-width: 427px) {
+    .entrance__form {
+     width: 342px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .entrance__form {
+     width: 310px;
+    }
+}
