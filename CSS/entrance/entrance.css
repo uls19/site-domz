@@ -1,0 +1,48 @@
+.entrance {
+    position: absolute;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    width: 500px;
+    height: 418px;
+    background: #FFFFFF;
+    border: 1px solid #213B7E;
+    filter: drop-shadow(5px 5px 4px rgba(0, 0, 0, 0.25));
+    display: none;
+    text-align: center;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 80px;
+}
+
+@media screen and (max-width: 767px) {
+    .entrance {
+        width: 442px;
+        height: 371px;
+          
+    }
+}
+@media screen and (max-width: 600px) {
+    .entrance {
+        width: 375px;
+        height: 315px;
+        
+    }
+} 
+@media screen and (max-width: 427px) {
+    .entrance  {
+            width: 342px;
+            height: 286px;
+    }
+      
+    }   
+@media screen and (max-width: 375px) {
+    .entrance  {
+        width: 310px;
+        height: 260px;
+    }
+      
+    }   
+
+    

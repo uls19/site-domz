@@ -1,0 +1,7 @@
+.content-students__students {
+    justify-content: center;
+    margin-top: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}

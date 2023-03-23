@@ -1,0 +1,8 @@
+.content__section {
+    max-width: 634px;
+}
+@media screen and (max-width: 767px) {
+    .content__section {
+        margin: 0 8px;
+    }   
+}

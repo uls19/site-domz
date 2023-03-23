@@ -1,0 +1,16 @@
+.header__menu {
+    display: flex;
+    list-style-type: none;
+    margin-left: 54px;
+    
+}
+@media screen and (max-width: 767px) {
+    .header__menu {
+        margin-left: 8px;
+   }  
+}
+@media screen and (max-width: 600px) {
+    .header__menu {
+        margin-left: 0px;
+   }   
+}

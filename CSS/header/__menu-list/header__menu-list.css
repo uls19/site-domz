@@ -1,0 +1,14 @@
+.header__menu-list {
+    width: 113px;
+    text-align: center;
+}
+@media screen and (max-width: 767px) {
+    .header__menu-list {
+        width: 90px;
+   }
+}
+@media screen and (max-width: 600px) {
+    .header__menu-list {
+        width: 76px;
+   }  
+}
