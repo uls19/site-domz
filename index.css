@@ -27,7 +27,7 @@
 
 @import url(./CSS/content-students/content-students.css);
 @import url(./CSS/content-students/__name/content-students__name.css);
-@import url(./CSS/content-students/__new/content-students__new.css);
+@import url(./CSS/content-students/new/new.css);
 @import url(./CSS/content-students/__student/content-students__student.css);
 @import url(./CSS/content-students/__students/content-students__students.css);
 @import url(./CSS/content-students/__title/content-students__title.css);
@@ -47,6 +47,7 @@
 @import url(./CSS/header/header.css);
 @import url(./CSS/header/__button/header__button.css);
 @import url(./CSS/header/__logo/header__logo.css);
+@import url(./CSS/header/__image/header__image.css);
 @import url(./CSS/header/__menu/header__menu.css);
 @import url(./CSS/header/__menu-link/header__menu-link.css);
 @import url(./CSS/header/__menu-link/__menu-link_active/header__menu-link_active.css);

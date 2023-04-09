@@ -7,3 +7,6 @@
     line-height: 21px;
     color: #000;
 }   
+.content-contacts__tel:hover {
+    color: rgb(0, 17, 255);
+}
