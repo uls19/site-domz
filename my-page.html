@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="icon" href="./img/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="all">
+        <header class="header">
+            <a class="header__logo" href="index.html">
+                <img class="header__image" src="img/logo.svg" width="47" height="47" alt="logotype">
+            </a>
+            <nav class="header__nav">
+                <ul class="header__menu">
+                    <li class="header__menu-list"><a class="header__menu-link" href="index.html">Главная</a></li>
+                    <li class="header__menu-list"><a class="header__menu-link header__menu-link_active"
+                            href="students.html">Студенты</a></li>
+                    <li class="header__menu-list"><a class="header__menu-link" href="about.html">О курсе</a></li>
+                    <li class="header__menu-list"><a class="header__menu-link" href="contacts.html">Контакты</a></li>
+                </ul>
+            </nav>
+            <a class="header__button" href="#">Войти</a>
+        </header>
+        <main class="content">
+            <h1 class="content__title">Добро пожаловать на страничку промежуточной аттестации!</h1>
+            <div class="content__section my-page">
+                <article class="content__article">
+                    <h3 class="content__subtitle">Доменное имя</h3>
+                    <p class="content__text">Доменное имя (или просто домен) – это легко запоминающееся название сайта,
+                        связанное с определенным IP-адресом в Интернете. Оно указывается в адресе сайта после www. и в
+                        адресе электронной почты после символа "@". Например, доменному имени example.com может
+                        соответствовать IP-адрес 198.102.434.8.</p>
+                </article>
+                <article class="content__article">
+                    <h3 class="content__subtitle">Cимволы разметки языка HTML</h3>
+                    <p class="content__text">Теги-специальные символы разметки языка HTML, позволяющие формировать
+                        содержимое веб-сайтов. Они являются основной составляющей HTML, этим словом код начинается и им
+                        же заканчивается, а внутри тега заключается содержимое, которое отображается на интернет
+                        странице.</p>
+                </article>
+                <article class="content__article">
+                    <h3 class="content__subtitle">Селекторы</h3>
+                    <p class="content__text">Селектор (по-латыни «тот, кто проводит отбор») — это отличительный
+                        признак элементов, которым данное правило установит единый стиль.</p>
+                    <ol class="content__list"><!--список-->
+                        <li class="content__text-list">после селектора в фигурных скобках указывают свойства стилей;
+                        </li>
+                        <li class="content__text-list">фигурные скобки вмещают сколько угодно пар «свойство-значение»;
+                            <ul class="content__list-ul"> <!-- список вложенный-->
+                                <li class="content__text-list">p {} – селектор по тегу, все элементы на странице</li>
+                                <li class="content__text-list">.class {} – селектор по классу, все элементы с классом
+                                </li>
+                                <li class="content__text-list"> #id – селектор по идентификатору, один уникальный
+                                    элемент(очень редко применяется)</li>
+                                <li class="content__text-list">* - вообще все элементы</li>
+                            </ul>
+                        </li>
+                        <li class="content__text-list">каждую новую пару принято писать на следующей строке, ставьте
+                            точку с запятой;.</li>
+                        <li class="content__text-list">селектор — не обязательно и далеко не всегда имя тега.</li>
+                    </ol>
+                </article>
+                <h2 class="my-page__title">Изображения и расширения</h2>
+
+                <div class="my-page__image">
+                    <div class="content-students__student">
+                        <a href="#" class="my-page__img-text"><img width="200" src="./img/cat.jpg" alt="cat">
+                            <p>.JPG</p>
+                        </a>
+
+                    </div>
+                    <div class="content-students__student">
+                        <a href="#" class="my-page__img-text"><img width="200" src="./img/cat_1.png" alt="cat">
+                            <p>.PNG</p>
+                        </a>
+                    </div>
+                    <div class="content-students__student">
+                        <a href="#" class="my-page__img-text"><img width="200" src="./img/app-store.svg" alt="story">
+                            <p>.SVG</p>
+                        </a>
+                    </div>
+                    <div class="content-students__student">
+                        <a href="#" class="my-page__img-text"><img width="200" src="./img/iskat-title.gif"
+                                alt="animation">
+                            <p>.GIF</p>
+                        </a>
+                    </div>
+                    <p class="my-page__blockquote"> Форма обратной связи — древнейшее программистское искусство. Тут
+                        есть всё:
+                        форма с проверкой, приём запроса, обработка, безопасность, хранение и ответ.
+                    </p>
+
+                </div>
+            </div>
+        </main>
+        <div class="my-page__form">
+            <form onsubmit="return flase" oninput="o.value= range.value" action="form.php" method="get">
+                <div class="my-page__choice">
+                    <fieldset class="fieldset">
+                        <legend class="fieldset__fiel">Oбразование</legend>
+                        <ul class="fieldset__margin">
+                            <li class="fieldset__education">
+                                <input type="radio" name="scool" id="medium" checked>
+                                <label for="medium">среднее</label>
+                            </li>
+                            <li class="fieldset__education">
+                                <input type="radio" name="scool" id="special">
+                                <label for="special">cредне-специальное</label>
+                            </li>
+                            <li class="fieldset__education">
+                                <input type="radio" name="scool" id="higher">
+                                <label for="higher">высшее</label>
+                            </li>
+                        </ul>
+                    </fieldset>
+                </div>
+                <div class="my-page-button">
+                    <p class="my-page-button__button"><input type="text" placeholder="Юрий"
+                            class="my-page-button__rigle"> Ваше Имя
+                        <!--мигающий курсор и прозрачный шрифт-->
+                    </p>
+                    <p class="my-page-button__button"><input type="email" required placeholder="@mail.ru"
+                            class="my-page-button__rigle"> E-mail
+                    </p>
+                    <p class="my-page-button__button"><input type="date" class="my-page-button__rigle"> Дата
+                        регистрации<!-- класс со скруглёнными углами-->
+                    </p>
+                    <p class="my-page-button__button"><input type="number" min="0" max="150"
+                            class="my-page-button__rigle"> Номер заказа
+                    </p>
+                    <p class="my-page-button__button"><input type="text" pattern="[0-9]{4}"
+                            class="my-page-button__rigle"> Возраст
+                        <!--pattern задание букв или цифр и их кол-во-->
+                    </p>
+                    <p class="my-page-button__button"><input type="password" required class="my-page-button__rigle">
+                        Пароль<!--reguired обязательный атрибут -->
+                    </p>
+                    <p class="my-page-button__button"><button type="submit">Отправить</button>
+                    </p>
+                    <p class="my-page-button__button">
+                        <button type="reset">Удалить</button>
+                    </p>
+                </div>
+
+                <div class="chek">
+                    <p class="my-page-button__button">Год получения диплома
+                        <select name="years" id="#">
+                            <option value="2020">2020 год</option> <!--выпадающая иконка с надписью-->
+                            <option value="2021">2021 год</option>
+                            <option value="2022">2022 год</option>
+                            <option value="2023">2023 год</option>
+                        </select>
+                    </p>
+                    <input type="range" name="range" min="0" max="5">
+                    <output name="o"></output><!--подключена к JS реализуется показ цифр-->
+                    <p class="chek__balls">Оценка в баллах</p><!--ползунок-->
+                    <p>
+                        <input type="checkbox" name="status" id="podp">
+                        <label for="podp">Бесплатная подписка</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="jobq" id="plat" checked> <!--checked "по умолчанию"-->
+                        <label for="plat">Базовая подписка</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="premium" id="prem">
+                        <label for="prem">Premium</label>
+                    </p>
+                </div>
+
+            </form>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>2023 &#169; <a class="footer__link" href="#">учебный центр</a></p>
+    </footer>
+</body>
+
+</html>

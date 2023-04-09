@@ -1,0 +1,15 @@
+.my-page__title {
+    padding-top: 33px;
+    padding-bottom: 25px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+
+    /* text-shadow: -1px 1px 3px #777777;
+    font-size: 40px;
+    color: rgb(107, 66, 146);
+    text-align: center;
+    margin:  30px; отступ */
+}

@@ -7,7 +7,13 @@
     color: #FFFFFF;
     padding: 28px 0px;
     display: block;
-    
+    transition-duration: .1s;
+       
+}
+.header__menu-link:hover {
+    color: #213B7E;
+    background: #FFFFFF;
+    text-decoration: none;  
 }
 @media screen and (max-width: 767px) {
     .header__menu-link {
@@ -21,4 +27,5 @@
         font-size: 16px;
         line-height: 18px;
         padding: 18px 0px;
+}
 }

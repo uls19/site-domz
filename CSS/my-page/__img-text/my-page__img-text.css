@@ -1,0 +1,15 @@
+.my-page__img-text {
+    
+    text-align: center;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    color: #000000;
+    
+}
+.my-page__img-text:hover {
+    color: #213B7E;
+    text-decoration: underline;
+}

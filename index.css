@@ -5,10 +5,13 @@
 @import url(./CSS/content/__heading/content__heading.css);
 @import url(./CSS/content/__image/content__image.css);
 @import url(./CSS/content/__info/content__info.css);
+@import url(./CSS/content/__list/content__list.css);
+@import url(./CSS/content/__list-ul/content__list-ul.css);
 @import url(./CSS/content/__quotation-marks/content__quotation-marks.css);
 @import url(./CSS/content/__section/content__section.css);
 @import url(./CSS/content/__subtitle/content__subtitle.css);
 @import url(./CSS/content/__text/content__text.css);
+@import url(./CSS/content/__text-list.css/content__text-list.css);
 @import url(./CSS/content/__text/__text_bold/content__text_bold.css);
 @import url(./CSS/content/__text/__text_color/content__text_color.css);
 @import url(./CSS/content/__title/content__title.css);
@@ -53,4 +56,18 @@
 @import url(./CSS/header/__menu-link/__menu-link_active/header__menu-link_active.css);
 @import url(./CSS/header/__menu-list/header__menu-list.css);
 
-
+@import url(./CSS/my-page/my-page.css);
+@import url(./CSS/my-page/__image/my-page__image.css);
+@import url(./CSS/my-page/__img-text/my-page__img-text.css);
+@import url(./CSS/my-page/__title/my-page__title.css);
+@import url(./CSS/my-page/__blockquote/my-page__blockquote.css);
+@import url(./CSS/my-page/__form/my-page__form.css);
+@import url(./CSS/my-page/__choice/my-page__choice.css);
+@import url(./CSS/fieldset/fieldset.css);
+@import url(./CSS/fieldset/__margin/fieldset__margin.css);
+@import url(./CSS/fieldset/__education/fieldset__education.css);
+@import url(./CSS/my-page-button/my-page-button.css);
+@import url(./CSS/my-page-button/__button/my-page-button__button.css);
+@import url(./CSS/my-page-button/__rigle/my-page-button__rigle.css);
+@import url(./CSS/chek/chek.css);
+@import url(./CSS/chek/__balls/chek__balls.css);

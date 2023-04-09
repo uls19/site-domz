@@ -1,0 +1,8 @@
+.my-page__image {
+    justify-content: center;
+    margin-top: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: flex-end;
+}
