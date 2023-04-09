@@ -1,0 +1,7 @@
+.my-page__choice {
+    display: inline-block;
+    width: 250px;
+    height: 100px;
+    vertical-align: top;
+    text-align: left;    
+}

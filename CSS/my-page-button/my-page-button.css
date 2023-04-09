@@ -1,0 +1,9 @@
+.my-page-button {
+    text-align: left;
+    display: inline-block;
+    width: 280px;
+    /* background-color: rgb(226, 226, 253); */
+    padding-left: 42px;
+    height: 180px;
+    padding-top: 10px;
+}

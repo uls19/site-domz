@@ -1,0 +1,10 @@
+.my-page-button__rigle:active, :focus {
+    outline: 0;
+ }
+
+ .my-page-button__rigle {
+    border-radius: 4px;
+    border: 1px solid rgb(75, 75, 75);
+    padding-left: 6px;
+    padding-right: 6px;
+ }

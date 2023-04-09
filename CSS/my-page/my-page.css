@@ -1,0 +1,8 @@
+.my-page {
+    max-width: 911px;
+}
+@media screen and (max-width: 767px) {
+    .mi-page {
+        margin: 0 8px;
+    }   
+}
